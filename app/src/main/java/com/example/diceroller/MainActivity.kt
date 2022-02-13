@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         }
         // Do a dice roll when the app starts
         rollDice()
-
     }
     /**
      * Roll the dice and update the screen with the result.
@@ -41,4 +40,5 @@ class MainActivity : AppCompatActivity() {
         // Update the content description
         diceImage.contentDescription = diceRoll.toString()
     }
+
 }
